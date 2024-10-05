@@ -61,6 +61,19 @@ const transactionData = [
   },
 ];
 
-const buyerData = [{}];
+const buyerData = [
+  {
+    name: "Male",
+    value: 200,
+  },
+  {
+    name: "Female",
+    value: 100,
+  },
+  {
+    name: "Other",
+    value: 13,
+  },
+];
 
 export { transactionData, buyerData };
