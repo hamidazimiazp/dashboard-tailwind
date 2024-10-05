@@ -4,10 +4,7 @@ const Products = () => {
   return (
     <div>
       {" "}
-      this is Products{" "}
-      <Link className="underline" to={"/"}>
-        Go to dashboard
-      </Link>
+      this is Products <Link to={"/"}>Go to dashboard</Link>
     </div>
   );
 };
