@@ -1,11 +1,7 @@
-import { Link } from "react-router-dom";
+import DashboardTemplate from "../../components/templates/DashboardTemplate/DashboardTemplate";
 
 const Dashboard = () => {
-  return (
-    <div>
-      this is dashboard <Link to={"/products"}>Go to Products</Link>
-    </div>
-  );
+  return <DashboardTemplate />;
 };
 
 export default Dashboard;
