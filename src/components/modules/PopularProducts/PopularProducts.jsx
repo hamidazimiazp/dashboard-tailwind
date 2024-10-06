@@ -3,9 +3,9 @@ import { popularProductsData } from "../../../constant/popularProductsData";
 
 const PopularProducts = () => {
   return (
-    <div className="bg-white px-4 pt-3 pb-4 rounded-sm border border-gray-200  w-[25rem] h-[27rem] overflow-hidden">
+    <div className="bg-white px-4 pt-3 pb-4 rounded-sm border border-gray-200   h-[27rem] overflow-hidden flex-1 md:flex-none md:w-[25rem] ">
       <strong className="text-gray-700 font-medium">Popular Products</strong>
-      <div className="mt-4 flex flex-col gap-3 overflow-y-scroll h-full  pb-10">
+      <div className="mt-4 flex flex-col gap-3 overflow-y-scroll h-full  md:pb-10">
         {popularProductsData.map((product) => {
           return (
             <Link

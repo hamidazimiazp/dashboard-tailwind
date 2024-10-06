@@ -13,10 +13,10 @@ import {
 const Header = () => {
   return (
     <div className="bg-white h-16 px-4 flex justify-between items-center">
-      <div>
+      <div className="hidden md:block">
         <SearchInput />
       </div>
-      <div className="flex gap-2 items-center mr-2">
+      <div className="flex gap-2 items-center mr-2 flex-1 justify-end">
         <Popover>
           <PopoverButton className="block text-sm/6 font-semibold focus:outline-none data-[active]:text-black data-[hover]:text-black data-[focus]:outline-1 data-[focus]:outline-black">
             <HiOutlineChatAlt fontSize={24} />

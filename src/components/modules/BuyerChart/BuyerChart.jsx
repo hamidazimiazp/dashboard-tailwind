@@ -29,7 +29,7 @@ const renderCustomizedLabel = ({
 
 const BuyerChart = () => {
   return (
-    <div className="w-[25rem] p-4 bg-white rounded-sm border border-gray-200 flex flex-col">
+    <div className="p-4 bg-white rounded-sm border border-gray-200 flex flex-col flex-1 md:flex-none md:w-[25rem] ">
       <strong className="text-gray-700 font-medium">Buyer Profile</strong>
       <div style={{ width: "100%", height: 250 }}>
         <ResponsiveContainer width="100%" height="100%">

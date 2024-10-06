@@ -3,7 +3,7 @@ import { DASHBOARD_STATS } from "../../../constant/dashboardStats";
 /* eslint-disable react/prop-types */
 const DashboardStatsGrid = () => {
   return (
-    <div className="flex gap-4 w-full">
+    <div className="flex gap-4 w-full flex-wrap">
       {DASHBOARD_STATS.map((item) => (
         <BoxWrapper key={item.key}>
           <div

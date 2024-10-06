@@ -23,7 +23,7 @@ const SideBar = () => {
 
   return (
     <div
-      className={`bg-neutral-900 w-60 p-3 flex flex-col text-white transition-all delay-1000 ease-in-out`}
+      className={`bg-neutral-900 w-60 p-3 flex flex-col text-white transition-all delay-1000 ease-in-out fixed h-full z-20 lg:relative lg:h-auto lg:z-auto`}
       style={toggle ? visibleSidebar : HiddenSidebar}
     >
       <div
