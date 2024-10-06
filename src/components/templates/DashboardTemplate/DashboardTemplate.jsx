@@ -12,7 +12,7 @@ const DashboardTemplate = () => {
         <TransactionChart />
         <BuyerChart />
       </div>
-      <div className="flex flex-row gap-4 w-full flex-col md:flex-row">
+      <div className="flex gap-4 w-full flex-col md:flex-row">
         <ResentOrders />
         <PopularProducts />
       </div>
